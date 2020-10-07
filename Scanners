@@ -1,0 +1,21 @@
+import java.time.LocalDate;
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+
+    System.out.println("Enter name, :");
+
+    // String input
+    String name = myObj.nextLine();
+    System.out.println("Enter email, :");
+    // Numerical input
+    String email = myObj.nextLine();
+    LocalDate date=LocalDate.now();
+    // Output input by user
+    System.out.println( name);
+    System.out.println( email);
+    System.out.println(date);
+  }
+}
